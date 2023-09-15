@@ -1,4 +1,4 @@
-module "waf" {
+module "allowed_hosts" {
   source = "../../modules/allowed-hosts"
 
   site_name     = "app1.example.com"
