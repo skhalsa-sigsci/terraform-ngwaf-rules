@@ -30,13 +30,13 @@ resource "sigsci_site_rule" "oob_domain" {
 resource "sigsci_site_list" "oob_domains" {
   site_short_name = var.site_name
   name            = "out-of-band domains"
-  type            = "string"
+  type            = "wildcard"
   description     = "list of out-of-band domains"
   entries         = var.oob_domains
 }
 
 resource "sigsci_site_signal_tag" "oob_domain" {
   site_short_name = var.site_name
-  name            = "out-of-band domain"
+  name            = "oob domain"
   description     = "attacker controlled domain"
 }
