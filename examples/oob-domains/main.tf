@@ -12,7 +12,7 @@ module "oob_domains" {
     "*oast.live*",
     "*oast.online*",
     "*oast.pro*",
-    "*r87.com*",
+    "*r87.me*",
     "*xss.ht*",
     "*bxss.me*",
     "*bxss.in*",
